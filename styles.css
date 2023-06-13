@@ -1,0 +1,10 @@
+body {
+    background: black;
+}
+div{
+    box-sizing: border-box;
+}
+div header{
+    background-color: white;
+    padding: 10px;
+}
