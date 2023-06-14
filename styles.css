@@ -2,17 +2,56 @@ body{
     background: black;
     margin: 0;
 }
-.post{
+div {
+    box-sizing: border-box;
+}
+div.post{
     background: white;
+    margin-top: 60px;
+    
+}
+div.container{
     width: 600px;
     margin: auto;
 }
-.logo{
-    float: left;
+div.logo{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    font-size: large;
 }
-.title, .footer p{
-    padding: 5px;
+div.tittle{
+    display: inline-block;
+    width: 80%;
+    text-align:left;
 }
-.image{
+div.tittle, div.footer{
+    padding:10px;
+    margin: 0;
+}
+div.icon-ellipse{
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    text-align: right;
+}
+div.image{
     width: 100%;
+}
+div.icon-ellipse,.interactive-icons, .save{
+font-size:xx-large;
+}
+div.interactive-icons{
+    display: inline-block;
+    width: 80%;
+}
+div.save{
+    display: inline-block;
+    width: 20%;
+    padding: 15px;
+    text-align: right;
+    
+}
+div.description p+p{
+    margin-bottom: 60px;
 }
