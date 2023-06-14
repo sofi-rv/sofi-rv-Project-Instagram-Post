@@ -1,10 +1,29 @@
 body {
     background: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
 }
-div{
+div 
+{
     box-sizing: border-box;
 }
-div header{
-    background-color: white;
-    padding: 10px;
+.post{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background: white;
+}
+.header{
+    width: 100%;
+    border: 1px solid green;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    padding: 8px;
+
 }
