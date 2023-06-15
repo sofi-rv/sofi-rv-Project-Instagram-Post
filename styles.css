@@ -1,6 +1,8 @@
 body{
     background: black;
     margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 div {
     box-sizing: border-box;
@@ -8,32 +10,36 @@ div {
 div.post{
     background: white;
     margin-top: 60px;
-    
 }
 div.container{
-    width: 600px;
+    width: 450px;
     margin: auto;
 }
 div.logo{
     display: inline-block;
-    width: 10%;
-    text-align: center;
-    font-size: large;
+    width: 5%;
+    text-align: left;
+    padding-left: 10px;
+    font-size:larger;
+    vertical-align: middle;
 }
 div.tittle{
     display: inline-block;
-    width: 80%;
+    width: 85%;
     text-align:left;
+    vertical-align: middle;
+    font-size: small;
 }
 div.tittle, div.footer{
-    padding:10px;
     margin: 0;
+    padding-left: 10px;
 }
 div.icon-ellipse{
     display: inline-block;
     width: 10%;
     padding: 10px;
     text-align: right;
+    vertical-align: middle;
 }
 div.image{
     width: 100%;
@@ -48,10 +54,14 @@ div.interactive-icons{
 div.save{
     display: inline-block;
     width: 20%;
-    padding: 15px;
+    padding: 20px;
     text-align: right;
     
 }
+div.description{
+    font-size:14px;
+}
 div.description p+p{
     margin-bottom: 60px;
+    padding-bottom: 30px;
 }
